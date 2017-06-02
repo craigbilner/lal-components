@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
   image: {
     height: 400,
-    marginVertical: 10,
+    marginVertical: 20,
     width: 400
   }
 });
