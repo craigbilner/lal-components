@@ -1,6 +1,6 @@
 {
   "name": "@lal/card",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A card component",
   "main": "card.js",
   "scripts": {
