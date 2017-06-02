@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   title: {
-    fontSize: '1.25rem',
+    fontSize: 40,
     fontWeight: 'bold'
   },
   image: {
