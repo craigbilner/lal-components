@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/craigbilner/lal-components#readme",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-plugin-transform-react-remove-prop-types": "^0.4.5",
-    "babel-preset-react-native": "^1.9.2",
-    "webpack": "^2.6.1"
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.5",
+    "babel-preset-react-native": "1.9.2",
+    "webpack": "2.6.1"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-native-web": "^0.0.96"
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-native-web": "0.0.96"
   }
 }
