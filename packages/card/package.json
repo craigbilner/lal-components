@@ -1,0 +1,38 @@
+{
+  "name": "@lal/card",
+  "version": "0.0.1",
+  "description": "A card component",
+  "main": "card.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbilner/lal-components.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "web",
+    "card",
+    "component"
+  ],
+  "author": "Craig Bilner",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/craigbilner/lal-components/issues"
+  },
+  "homepage": "https://github.com/craigbilner/lal-components#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.5",
+    "babel-preset-react-native": "^1.9.2",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-native-web": "^0.0.96"
+  }
+}
