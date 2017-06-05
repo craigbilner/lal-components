@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 
@@ -21,7 +23,12 @@ const Card = ({ children }) => <View style={styles.card}>{children}</View>;
 const Title = ({ children }) => <Text style={styles.title}>{children}</Text>;
 const Photo = ({ uri }) => <Image source={{ uri }} style={styles.image} />;
 
-export default ({ title, uri }) =>
+type Props = {
+  title: string,
+  uri: number
+};
+
+export default ({ title, uri }: Props) =>
   <Card>
     <Title>{title}</Title>
     <Photo uri={uri} />
