@@ -4,7 +4,11 @@
   "description": "A card component",
   "main": "card.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:dev": "jest --bail --verbose --watch",
+    "test": "jest --bail --ci --coverage"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "repository": {
     "type": "git",
@@ -29,6 +33,8 @@
     "babel-plugin-transform-react-remove-prop-types": "0.4.5",
     "babel-preset-react-native": "1.9.2",
     "jest": "^20.0.4",
+    "react-native": "^0.44.2",
+    "react-test-renderer": "^15.5.4",
     "webpack": "2.6.1"
   },
   "dependencies": {
