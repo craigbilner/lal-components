@@ -1,14 +1,14 @@
-import React from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { Image, StyleSheet, Text, View } from "react-native";
 
 const styles = StyleSheet.create({
   card: {
     flexGrow: 1,
-    justifyContent: 'center'
+    justifyContent: "center"
   },
   title: {
     fontSize: 30,
-    fontWeight: 'bold'
+    fontWeight: "bold"
   },
   image: {
     height: 400,
@@ -19,11 +19,10 @@ const styles = StyleSheet.create({
 
 const Card = ({ children }) => <View style={styles.card}>{children}</View>;
 const Title = ({ children }) => <Text style={styles.title}>{children}</Text>;
-const Photo = ({ uri }) => <Image source={{ uri }} style={styles.image}/>;
+const Photo = ({ uri }) => <Image source={{ uri }} style={styles.image} />;
 
-export default ({ title, uri }) => (
+export default ({ title, uri }) =>
   <Card>
     <Title>{title}</Title>
-    <Photo uri={uri}/>
-  </Card>
-);
+    <Photo uri={uri} />
+  </Card>;
